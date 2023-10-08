@@ -1,0 +1,22 @@
+{
+    "name": "mervy/dashboard_v2",
+    "description": "Dashboard Panel With PHP",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mervy\\Kurama\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rogério Soares",
+            "email": "rgrsoares@yahoo.com.br"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.1",
+        "league/plates": "^3.5"
+    }
+}
